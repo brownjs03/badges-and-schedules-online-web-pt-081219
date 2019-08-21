@@ -25,6 +25,7 @@ def printer(attendees)
   attendees.each do |name|
     puts badge_maker(name)
 end
-assign_rooms(attendees).map do |message|
+assign_rooms(attendees).each do |message|
 end
+puts message
 end
